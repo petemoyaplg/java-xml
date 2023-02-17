@@ -1,0 +1,695 @@
+2023-02-17 00:44:15.654  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 00:44:15.660  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 00:44:15.969  INFO 7592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-17 00:44:15.970  INFO 7592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-17 00:44:18.361  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 00:44:18.431  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 00:44:18.452  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 00:44:18.675  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-17 00:44:18.677  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2501 ms
+2023-02-17 00:44:21.221  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 00:44:21.486  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 00:44:21.574  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 7.041 seconds (JVM running for 8.145)
+2023-02-17 00:47:50.386  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 00:47:50.635  INFO 7592 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 00:48:06.214  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 00:48:06.299  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 00:48:07.649  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 00:48:07.662  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 00:48:07.664  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 00:48:07.839  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-17 00:48:07.870  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1461 ms
+2023-02-17 00:48:08.799  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 00:48:08.894  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 00:48:09.015  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 3.913 seconds (JVM running for 235.586)
+2023-02-17 00:48:09.030  INFO 7592 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-02-17 00:48:09.282 ERROR 7592 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.AbstractMethodError: Receiver class com.plg.javaxml.JavaXmlApplication$$EnhancerBySpringCGLIB$$6501aac3 does not define or inherit an implementation of the resolved method 'abstract void run(java.lang.String[])' of interface org.springframework.boot.CommandLineRunner.
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:768) ~[spring-boot-2.7.8.jar:2.7.8]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:752) ~[spring-boot-2.7.8.jar:2.7.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) ~[spring-boot-2.7.8.jar:2.7.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.8.jar:2.7.8]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.8.jar:2.7.8]
+	at com.plg.javaxml.JavaXmlApplication.main(JavaXmlApplication.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.8.jar:2.7.8]
+
+2023-02-17 00:48:12.642  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 00:48:12.707  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 00:48:14.950  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 00:48:14.957  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 00:48:15.139  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 00:48:15.446  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-17 00:48:15.450  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2595 ms
+2023-02-17 00:48:17.646  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 00:48:17.768  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 00:48:17.820  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 6.424 seconds (JVM running for 244.391)
+2023-02-17 00:48:17.825  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 00:48:36.056  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 00:48:36.662  INFO 7592 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 00:50:18.427  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 00:50:18.446  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 00:50:18.977  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 00:50:18.981  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 00:50:18.982  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 00:50:19.193  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-17 00:50:19.197  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 730 ms
+2023-02-17 00:50:19.598  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 00:50:19.630  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 00:50:19.684  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 1.288 seconds (JVM running for 366.255)
+2023-02-17 00:50:19.704  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 00:50:19.752  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 00:50:53.916  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-02-17 00:50:54.022  INFO 7592 --- [Thread-17] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 00:50:54.280  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 00:50:54.293  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 00:50:54.638  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 00:50:54.654  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 00:50:54.656  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 00:50:54.762  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-17 00:50:54.763  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 432 ms
+2023-02-17 00:50:55.332  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 00:50:55.513  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 00:50:55.694  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 1.474 seconds (JVM running for 402.264)
+2023-02-17 00:50:55.706  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 00:50:55.770  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 00:51:51.807  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 1 deletion, 2 modifications)
+2023-02-17 00:51:52.100  INFO 7592 --- [Thread-25] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 00:52:02.055  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 00:52:02.058  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 00:52:02.732  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 00:52:02.734  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 00:52:02.780  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 00:52:02.957  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 00:52:02.960  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 886 ms
+2023-02-17 00:52:03.738  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 00:52:03.904  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 00:52:03.950  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 1.967 seconds (JVM running for 470.521)
+2023-02-17 00:52:04.030  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 00:52:04.064  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 00:55:58.643  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-02-17 00:55:58.865  INFO 7592 --- [Thread-29] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 00:55:59.667  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 00:55:59.672  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 00:56:00.469  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 00:56:00.471  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 00:56:00.473  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 00:56:00.640  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 00:56:00.641  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 912 ms
+2023-02-17 00:56:01.113  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 00:56:01.187  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 00:56:01.201  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 2.106 seconds (JVM running for 707.772)
+2023-02-17 00:56:01.206  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 00:56:01.365  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 00:56:08.772  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 00:56:08.958  INFO 7592 --- [Thread-37] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 00:56:10.057  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 00:56:10.203  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 00:56:11.957  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 00:56:11.960  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 00:56:11.961  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 00:56:12.013  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 00:56:12.071  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1834 ms
+2023-02-17 00:56:12.419  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 00:56:12.430  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 00:56:12.487  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 3.32 seconds (JVM running for 719.058)
+2023-02-17 00:56:12.549  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 00:56:12.608  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 00:56:15.687  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 00:56:15.799  INFO 7592 --- [Thread-41] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 00:56:16.264  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 00:56:16.267  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 00:56:23.112  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 00:56:23.236  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 00:56:23.400  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 00:56:23.516  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 00:56:23.572  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7218 ms
+2023-02-17 00:56:27.863  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 00:56:27.989  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 00:56:28.049  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 12.141 seconds (JVM running for 734.62)
+2023-02-17 00:56:28.386  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 00:56:28.503  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 00:56:29.638  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 00:56:29.916  INFO 7592 --- [Thread-45] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 00:56:30.690  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 00:56:30.735  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 00:56:31.925  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 00:56:31.931  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 00:56:31.934  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 00:56:32.156  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 00:56:32.165  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1208 ms
+2023-02-17 00:56:33.151  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 00:56:33.171  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 00:56:33.290  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 3.117 seconds (JVM running for 739.861)
+2023-02-17 00:56:33.349  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 00:56:33.527  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 00:56:34.670  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 00:56:35.015  INFO 7592 --- [Thread-49] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 00:56:35.450  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 00:56:35.477  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 00:56:36.206  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 00:56:36.208  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 00:56:36.209  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 00:56:36.347  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 00:56:36.349  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 756 ms
+2023-02-17 00:56:36.831  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 00:56:36.953  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 00:56:37.042  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 1.78 seconds (JVM running for 743.613)
+2023-02-17 00:56:37.049  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 00:56:37.103  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 00:56:47.228  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 00:56:47.253  INFO 7592 --- [Thread-53] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 00:56:51.997  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 00:56:52.084  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 00:56:53.189  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 00:56:53.592  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 00:56:53.600  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 00:56:53.895  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 00:56:53.897  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1666 ms
+2023-02-17 00:57:01.547  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 00:57:01.582  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 00:57:01.650  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 10.663 seconds (JVM running for 768.22)
+2023-02-17 00:57:01.726  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 00:57:01.731  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 00:57:03.162  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 00:57:03.520  INFO 7592 --- [Thread-57] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 00:57:04.423  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 00:57:04.427  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 00:57:06.094  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 00:57:06.113  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 00:57:06.390  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 00:57:06.516  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 00:57:06.533  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2097 ms
+2023-02-17 00:57:07.434  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 00:57:07.485  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 00:57:07.626  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 3.405 seconds (JVM running for 774.197)
+2023-02-17 00:57:07.658  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 00:57:07.661  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 00:57:09.947  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 00:57:09.970  INFO 7592 --- [Thread-61] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 00:57:11.203  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 00:57:11.274  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 00:57:13.341  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 00:57:13.366  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 00:57:13.368  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 00:57:13.472  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 00:57:13.474  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2190 ms
+2023-02-17 00:57:13.895  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 00:57:14.494  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 00:57:14.549  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 4.294 seconds (JVM running for 781.12)
+2023-02-17 00:57:14.559  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 00:57:14.562  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 00:57:16.912  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 00:57:16.930  INFO 7592 --- [Thread-65] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 00:57:17.504  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 00:57:17.506  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 00:57:18.083  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 00:57:18.085  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 00:57:18.085  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 00:57:18.198  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 00:57:18.202  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 594 ms
+2023-02-17 00:57:18.876  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 00:57:18.887  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 00:57:18.910  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 1.622 seconds (JVM running for 785.481)
+2023-02-17 00:57:18.944  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 00:57:18.969  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 00:57:28.613  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 00:57:29.021  INFO 7592 --- [Thread-69] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 00:57:29.568  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 00:57:29.818  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 00:57:30.679  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 00:57:30.687  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 00:57:30.830  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 00:57:30.990  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 00:57:30.999  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1093 ms
+2023-02-17 00:57:31.620  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 00:57:31.946  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 00:57:32.167  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 2.863 seconds (JVM running for 798.738)
+2023-02-17 00:57:32.180  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 00:57:32.183  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 00:57:38.582  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 00:57:38.627  INFO 7592 --- [Thread-73] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 00:57:38.971  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 00:57:38.973  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 00:57:39.924  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 00:57:39.935  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 00:57:39.997  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 00:57:40.122  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 00:57:40.125  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1126 ms
+2023-02-17 00:57:42.096  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 00:57:42.175  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 00:57:42.183  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 3.3 seconds (JVM running for 808.753)
+2023-02-17 00:57:42.293  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 00:57:42.410  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 00:57:49.851  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 00:57:49.896  INFO 7592 --- [Thread-77] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 00:57:50.809  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 00:57:50.817  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 00:57:52.029  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 00:57:52.076  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 00:57:52.088  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 00:57:52.192  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 00:57:52.259  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1436 ms
+2023-02-17 00:57:54.187  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 00:57:54.387  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 00:57:54.395  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 3.942 seconds (JVM running for 820.965)
+2023-02-17 00:57:54.397  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 00:57:54.399  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 00:57:55.686  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 00:57:55.838  INFO 7592 --- [Thread-81] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 00:57:56.184  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 00:57:56.234  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 00:57:56.795  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 00:57:56.798  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 00:57:56.799  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 00:57:56.916  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 00:57:56.918  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 676 ms
+2023-02-17 00:57:57.552  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 00:57:57.698  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 00:57:57.870  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 1.79 seconds (JVM running for 824.44)
+2023-02-17 00:57:57.929  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 00:57:57.993  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 00:58:43.929  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 00:58:44.127  INFO 7592 --- [Thread-85] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 00:58:45.452  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 00:58:45.514  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 00:58:47.060  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 00:58:47.065  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 00:58:47.141  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 00:58:51.323  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 00:58:51.341  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5796 ms
+2023-02-17 00:58:53.414  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 00:58:53.430  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 00:58:53.739  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 9.242 seconds (JVM running for 880.309)
+2023-02-17 00:58:53.789  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 00:58:54.113  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 00:58:55.012  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 00:58:55.413  INFO 7592 --- [Thread-89] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 00:58:56.113  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 00:58:56.128  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 00:58:59.264  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 00:58:59.266  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 00:58:59.268  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 00:58:59.443  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 00:58:59.447  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3157 ms
+2023-02-17 00:59:00.136  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 00:59:00.261  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 00:59:00.504  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 4.829 seconds (JVM running for 887.074)
+2023-02-17 00:59:00.514  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 00:59:00.537  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 00:59:07.902  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 00:59:07.917  INFO 7592 --- [Thread-93] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 00:59:08.492  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 00:59:08.581  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 00:59:09.230  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 00:59:09.232  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 00:59:09.233  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 00:59:09.408  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 00:59:09.410  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 815 ms
+2023-02-17 00:59:09.824  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 00:59:09.876  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 00:59:09.921  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 1.716 seconds (JVM running for 896.492)
+2023-02-17 00:59:09.926  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 00:59:10.096  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:00:23.689  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:00:23.770  INFO 7592 --- [Thread-97] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:00:24.048  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:00:24.077  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:00:25.830  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:00:25.851  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:00:25.852  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:00:26.067  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:00:26.076  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1964 ms
+2023-02-17 01:00:28.599  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:00:28.616  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:00:28.623  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 4.635 seconds (JVM running for 975.193)
+2023-02-17 01:00:28.645  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:00:28.648  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:00:30.045  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:00:30.171  INFO 7592 --- [Thread-101] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:00:30.513  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:00:30.568  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:00:30.922  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:00:30.924  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:00:30.925  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:00:31.125  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:00:31.135  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 534 ms
+2023-02-17 01:00:32.021  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:00:32.137  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:00:32.145  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 1.787 seconds (JVM running for 978.716)
+2023-02-17 01:00:32.147  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:00:32.150  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:00:39.792  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:00:39.839  INFO 7592 --- [Thread-105] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:00:40.247  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:00:40.250  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:00:41.266  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:00:41.269  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:00:41.271  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:00:41.447  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:00:41.453  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1197 ms
+2023-02-17 01:00:42.215  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:00:42.270  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:00:42.281  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 2.212 seconds (JVM running for 988.852)
+2023-02-17 01:00:42.283  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:00:42.285  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:00:45.819  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:00:45.836  INFO 7592 --- [Thread-109] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:00:46.489  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:00:46.492  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:00:47.309  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:00:47.311  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:00:47.313  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:00:47.467  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:00:47.469  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 805 ms
+2023-02-17 01:00:47.798  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:00:47.827  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:00:47.901  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 1.8 seconds (JVM running for 994.472)
+2023-02-17 01:00:47.905  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:00:47.915  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:01:24.515  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:01:24.534  INFO 7592 --- [Thread-113] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:01:24.830  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:01:24.831  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:01:25.725  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:01:25.728  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:01:25.730  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:01:25.839  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:01:25.842  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1007 ms
+2023-02-17 01:01:26.199  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:01:26.511  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:01:26.595  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 1.87 seconds (JVM running for 1033.165)
+2023-02-17 01:01:26.647  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:01:26.774  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:01:28.999  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:01:29.061  INFO 7592 --- [Thread-117] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:01:29.378  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:01:29.407  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:01:29.962  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:01:29.965  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:01:29.965  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:01:30.085  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:01:30.087  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 628 ms
+2023-02-17 01:01:30.562  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:01:30.647  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:01:30.731  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 1.472 seconds (JVM running for 1037.302)
+2023-02-17 01:01:30.742  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:01:30.785  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:01:39.216  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:01:39.231  INFO 7592 --- [Thread-121] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:01:39.563  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:01:39.564  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:01:39.955  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:01:39.956  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:01:39.957  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:01:40.022  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:01:40.042  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 475 ms
+2023-02-17 01:01:40.492  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:01:40.658  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:01:40.673  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 1.181 seconds (JVM running for 1047.244)
+2023-02-17 01:01:40.678  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:01:40.682  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:02:57.191  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:02:57.702  INFO 7592 --- [Thread-125] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:02:58.259  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:02:58.261  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:02:59.198  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:02:59.203  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:02:59.205  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:02:59.280  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:02:59.382  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1069 ms
+2023-02-17 01:03:00.166  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:03:00.233  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:03:00.345  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 2.204 seconds (JVM running for 1126.916)
+2023-02-17 01:03:00.352  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:03:00.415  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:03:03.857  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:03:04.009  INFO 7592 --- [Thread-129] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:03:04.532  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:03:04.535  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:03:04.937  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:03:04.938  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:03:04.939  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:03:05.048  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:03:05.049  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 510 ms
+2023-02-17 01:03:05.459  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:03:05.604  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:03:05.620  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 1.357 seconds (JVM running for 1132.191)
+2023-02-17 01:03:05.705  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:03:05.709  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:03:29.678  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:03:29.897  INFO 7592 --- [Thread-133] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:03:30.574  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:03:30.585  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:03:31.654  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:03:31.765  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:03:31.772  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:03:31.886  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:03:31.904  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1225 ms
+2023-02-17 01:03:32.659  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:03:32.842  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:03:32.856  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 2.665 seconds (JVM running for 1159.426)
+2023-02-17 01:03:32.858  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:03:33.028  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:03:35.137  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:03:35.174  INFO 7592 --- [Thread-137] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:03:35.559  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:03:35.563  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:03:37.063  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:03:37.095  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:03:37.101  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:03:37.210  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:03:37.264  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1693 ms
+2023-02-17 01:03:38.553  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:03:38.690  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:03:38.835  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 3.466 seconds (JVM running for 1165.406)
+2023-02-17 01:03:38.840  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:03:38.842  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:03:39.969  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:03:40.044  INFO 7592 --- [Thread-141] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:03:40.252  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:03:40.253  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:03:40.764  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:03:40.766  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:03:40.767  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:03:40.898  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:03:40.901  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 624 ms
+2023-02-17 01:03:41.228  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:03:41.275  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:03:41.338  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 1.115 seconds (JVM running for 1167.908)
+2023-02-17 01:03:41.367  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:03:41.369  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:05:39.916  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:05:39.982  INFO 7592 --- [Thread-145] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:05:40.281  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:05:40.282  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:05:40.631  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:05:40.633  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:05:40.634  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:05:40.651  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:05:40.652  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 367 ms
+2023-02-17 01:05:41.178  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:05:41.316  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:05:41.348  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 1.129 seconds (JVM running for 1287.919)
+2023-02-17 01:05:41.351  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:05:41.353  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:05:42.596  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:05:42.669  INFO 7592 --- [Thread-149] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:05:45.163  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:05:45.284  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:05:46.240  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:05:46.244  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:05:46.246  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:05:46.417  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:05:46.418  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1099 ms
+2023-02-17 01:05:46.917  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:05:46.947  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:05:46.996  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 4.105 seconds (JVM running for 1293.567)
+2023-02-17 01:05:47.014  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:05:47.037  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:05:56.718  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:05:56.734  INFO 7592 --- [Thread-153] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:05:57.224  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:05:57.262  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:05:58.024  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:05:58.145  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:05:58.233  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:05:58.432  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:05:58.436  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1116 ms
+2023-02-17 01:05:58.937  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:05:58.968  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:05:59.035  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 2.021 seconds (JVM running for 1305.605)
+2023-02-17 01:05:59.060  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:05:59.073  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:06:05.599  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:06:05.615  INFO 7592 --- [Thread-157] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:06:07.528  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:06:07.532  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:06:09.616  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:06:09.648  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:06:09.802  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:06:09.946  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:06:09.963  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2275 ms
+2023-02-17 01:06:11.187  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:06:11.219  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:06:11.456  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 4.515 seconds (JVM running for 1318.027)
+2023-02-17 01:06:11.590  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:06:11.649  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:06:12.720  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:06:12.921  INFO 7592 --- [Thread-161] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:06:13.537  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:06:13.538  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:06:14.342  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:06:14.366  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:06:14.368  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:06:14.504  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:06:14.505  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 962 ms
+2023-02-17 01:06:14.936  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:06:15.118  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:06:15.242  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 2.107 seconds (JVM running for 1321.813)
+2023-02-17 01:06:15.273  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:06:15.292  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:06:21.689  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:06:21.811  INFO 7592 --- [Thread-165] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:06:22.942  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:06:22.945  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:06:23.793  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:06:23.805  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:06:23.808  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:06:23.929  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:06:23.943  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 992 ms
+2023-02-17 01:06:24.258  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:06:24.350  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:06:24.358  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 2.121 seconds (JVM running for 1330.929)
+2023-02-17 01:06:24.376  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:06:24.440  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:06:28.032  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:06:28.141  INFO 7592 --- [Thread-169] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:06:28.780  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:06:28.783  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:06:29.395  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:06:29.396  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:06:29.398  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:06:29.640  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:06:29.800  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1010 ms
+2023-02-17 01:06:30.347  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:06:30.357  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:06:30.511  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 2.172 seconds (JVM running for 1337.081)
+2023-02-17 01:06:30.526  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:06:30.572  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:06:31.814  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:06:31.912  INFO 7592 --- [Thread-173] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:06:32.317  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:06:32.401  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:06:33.634  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:06:33.637  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:06:33.638  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:06:33.770  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:06:33.781  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1320 ms
+2023-02-17 01:06:34.285  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:06:34.347  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:06:34.406  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 2.233 seconds (JVM running for 1340.977)
+2023-02-17 01:06:34.410  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:06:34.412  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:06:37.860  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:06:38.071  INFO 7592 --- [Thread-177] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:06:38.788  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:06:38.791  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:06:39.602  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:06:39.645  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:06:39.757  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:06:39.782  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:06:39.800  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 992 ms
+2023-02-17 01:06:40.367  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:06:40.379  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:06:40.410  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 2.043 seconds (JVM running for 1346.98)
+2023-02-17 01:06:40.465  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:06:40.476  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:06:53.157  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:06:53.197  INFO 7592 --- [Thread-181] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:06:53.456  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:06:53.457  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:06:53.823  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:06:53.825  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:06:53.825  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:06:53.918  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:06:53.934  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 473 ms
+2023-02-17 01:06:54.262  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:06:54.293  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:06:54.350  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 0.955 seconds (JVM running for 1360.921)
+2023-02-17 01:06:54.365  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:06:54.371  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:07:01.857  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:07:01.870  INFO 7592 --- [Thread-185] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:07:02.160  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:07:02.161  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:07:02.819  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:07:02.833  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:07:02.835  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:07:03.053  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:07:03.067  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 903 ms
+2023-02-17 01:07:03.996  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:07:04.050  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:07:04.199  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 2.099 seconds (JVM running for 1370.769)
+2023-02-17 01:07:04.270  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:07:04.272  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:07:05.519  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:07:05.623  INFO 7592 --- [Thread-189] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:07:05.972  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:07:05.973  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:07:06.782  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:07:06.814  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:07:06.817  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:07:06.873  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:07:06.889  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 908 ms
+2023-02-17 01:07:07.298  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:07:07.342  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:07:07.430  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 1.525 seconds (JVM running for 1374.001)
+2023-02-17 01:07:07.434  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:07:07.449  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:07:21.194  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:07:21.338  INFO 7592 --- [Thread-193] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:07:21.664  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:07:21.670  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:07:23.487  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:07:23.492  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:07:23.494  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:07:23.576  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:07:23.668  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1938 ms
+2023-02-17 01:07:24.499  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:07:24.589  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:07:24.653  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 3.074 seconds (JVM running for 1391.224)
+2023-02-17 01:07:24.656  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:07:24.658  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:07:25.949  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:07:26.032  INFO 7592 --- [Thread-197] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:07:27.335  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:07:27.337  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:07:30.899  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:07:30.917  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:07:30.918  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:07:31.033  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:07:31.089  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3748 ms
+2023-02-17 01:07:32.311  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:07:32.488  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:07:32.498  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 6.117 seconds (JVM running for 1399.068)
+2023-02-17 01:07:32.528  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:07:32.555  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-17 01:08:00.129  INFO 7592 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-02-17 01:08:00.288  INFO 7592 --- [Thread-201] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-02-17 01:08:00.889  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Starting JavaXmlApplication using Java 19.0.2 on DESKTOP-FADNBO9 with PID 7592 (C:\Users\Gaspard\Documents\projets\backend\spring\java-xml\target\classes started by Gaspard in C:\Users\Gaspard\Documents\projets\backend\spring\java-xml)
+2023-02-17 01:08:00.943  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-02-17 01:08:01.701  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2023-02-17 01:08:01.835  INFO 7592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-17 01:08:01.842  INFO 7592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-17 01:08:01.971  INFO 7592 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-02-17 01:08:01.974  INFO 7592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 923 ms
+2023-02-17 01:08:02.524  INFO 7592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-17 01:08:02.700  INFO 7592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2023-02-17 01:08:02.716  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Started JavaXmlApplication in 2.308 seconds (JVM running for 1429.287)
+2023-02-17 01:08:02.862  INFO 7592 --- [restartedMain] com.plg.javaxml.JavaXmlApplication       : Serveur run
+2023-02-17 01:08:02.957  INFO 7592 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
