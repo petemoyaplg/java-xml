@@ -30,18 +30,17 @@ import lombok.extern.slf4j.Slf4j;
 
 @SpringBootApplication
 @Slf4j
-@Service
 public class JavaXmlApplication implements CommandLineRunner {
 
-	@Autowired(required = true)
-	private Converter converter;
+	// @Autowired(required = true)
+	// private Converter converter;
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		SpringApplication.run(JavaXmlApplication.class, args);
 
 		Person person = new Person(1, "PLG");
 		try {
-			Converter.convertJavaToXml(person, "resources/person.xml");
+			Converter.convertJavaToXml(person, "person.xml");
 		} catch (JAXBException e) {
 			System.out.println(e.getMessage());
 		}

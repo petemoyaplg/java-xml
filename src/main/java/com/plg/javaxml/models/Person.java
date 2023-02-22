@@ -12,6 +12,9 @@ public class Person {
   private String name;
 
   // private LocalDate datenaissance;
+  public Person() {
+  }
+
   public Person(int id, String name) {
     this.id = id;
     this.name = name;
