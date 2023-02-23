@@ -1,10 +1,18 @@
-package com.plg.javaxml.models.arca;
+package com.plg.javaxml.models;
 
 import javax.xml.bind.annotation.*;
 import java.math.BigInteger;
 import javax.xml.datatype.XMLGregorianCalendar;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import java.util.*;
 
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "Production", propOrder = {
     "assureur",

@@ -11,10 +11,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Service;
 
+import com.plg.javaxml.converter.Converter;
 import com.plg.javaxml.enumeration.TypeCompte;
 // import com.plg.javaxml.models.Banque;
 import com.plg.javaxml.models.*;
-import com.plg.javaxml.services.Converter;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
@@ -38,12 +38,12 @@ public class JavaXmlApplication implements CommandLineRunner {
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		SpringApplication.run(JavaXmlApplication.class, args);
 
-		Person person = new Person(1, "PLG");
-		try {
-			Converter.convertJavaToXml(person, "person.xml");
-		} catch (JAXBException e) {
-			System.out.println(e.getMessage());
-		}
+		// Person person = new Person(1, "PLG");
+		// try {
+		// 	Converter.convertJavaToXml(person, "person.xml");
+		// } catch (JAXBException e) {
+		// 	System.out.println(e.getMessage());
+		// }
 
 		// JAXBContext context = JAXBContext.newInstance(Compte.class);
 		// Compte compte = new Compte(1, 65000, new Date(), TypeCompte.COURANT);
